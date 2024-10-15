@@ -22,6 +22,7 @@ require("lazy").setup({
     'ellisonleao/gruvbox.nvim',
     'lukas-reineke/virt-column.nvim',
     'mbbill/undotree',
+    'tpope/vim-fugitive',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
     {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' },
     {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' } },
