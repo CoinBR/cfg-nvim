@@ -23,6 +23,7 @@ require("lazy").setup({
     'lukas-reineke/virt-column.nvim',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
     {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' },
+    {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' } },
     },
   },
   -- Configure any other settings here. See the documentation for more details.
