@@ -24,9 +24,8 @@ require("lazy").setup({
     'mbbill/undotree',
     'tpope/vim-fugitive',
     {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
-    {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' },
-    {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' } },
-    },
+    {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' }},
+    {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' }},
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
