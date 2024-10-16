@@ -9,10 +9,14 @@ return {
       },
       overrides = {
         Normal = { bg = "#000000" },  
+        SignColumn = { bg = "#000000" },  -- Make sign column background black
+
       }
     })
 
     vim.cmd("colorscheme gruvbox")
+    vim.opt.termguicolors = true
+    vim.opt.background = "dark"
   end
 }
 
