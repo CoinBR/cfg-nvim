@@ -16,20 +16,25 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
-require("lazy").setup({
-  spec = {
-    -- import your plugins
-    'ellisonleao/gruvbox.nvim',
-    'lukas-reineke/virt-column.nvim',
-    'mbbill/undotree',
-    'tpope/vim-fugitive',
-    {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
-    {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' }},
-    {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' }},
-  },
+require("lazy").setup(
+  { 
+    { import = "coinbr.plugins" }, 
+
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "gruvbox" } },
+  --  { install = { colorscheme = { "gruvbox" } } },
+
   -- automatically check for plugin updates
-  checker = { enabled = true },
-})
+  --  { checker = { enabled = true, notify = false } },
+
+--  spec = {
+	  --
+    -- import your plugins
+--    'lukas-reineke/virt-column.nvim',
+--    'mbbill/undotree',
+--    'tpope/vim-fugitive',
+--    {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
+--    {'nvim-telescope/telescope.nvim', tag = '0.1.8', dependencies = { 'nvim-lua/plenary.nvim' }},
+--    {'ThePrimeagen/harpoon', dependencies = { 'nvim-lua/plenary.nvim' }},
+--  },
+ })

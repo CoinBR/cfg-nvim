@@ -1,1 +1,1 @@
-require("coinbr")
+require("coinbr.init")
