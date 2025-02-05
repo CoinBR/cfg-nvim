@@ -21,6 +21,10 @@ o.smartcase = true -- use case-sensitive search when you input an uppercase lett
 o.splitright = true
 o.splitbelow = true
 
+-- use the system clipboard
+vim.opt.clipboard = "unnamedplus"
+
+
 -- etc
 o.cursorline = true
 o.signcolumn = "yes" 
