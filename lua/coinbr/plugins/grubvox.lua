@@ -10,6 +10,7 @@ return {
       overrides = {
         Normal = { bg = "#000000" },  
         SignColumn = { bg = "#000000" },  -- Make sign column background black
+         Comment = { fg = "#ffeedd", bg = '#410703'}
 
       }
     })
