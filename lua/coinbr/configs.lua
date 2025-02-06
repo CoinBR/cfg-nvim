@@ -13,6 +13,9 @@ o.shiftwidth = 2 -- spaces for ident
 o.expandtab = true -- expand tab to spaces
 o.autoindent = true -- copy indent from current line when starting a new one
 
+-- disable line wrapping
+o.wrap = false
+
 -- search
 o.ignorecase = true
 o.smartcase = true -- use case-sensitive search when you input an uppercase letter
@@ -26,6 +29,6 @@ vim.opt.clipboard = "unnamedplus"
 
 
 -- etc
-o.cursorline = true
+o.cursorline = true -- highlight the current cursor line
 o.signcolumn = "yes" 
-o.backspace = { "indent", "eol", "start" }
+o.backspace = { "indent", "eol", "start" } -- allow backspace on indent, end of line or insert mode start position
